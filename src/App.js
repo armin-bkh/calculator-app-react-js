@@ -16,10 +16,10 @@ function App() {
     { value: "4", onAdd: () => setValue((prevValue) => (prevValue += "4")) },
     { value: "5", onAdd: () => setValue((prevValue) => (prevValue += "5")) },
     { value: "6", onAdd: () => setValue((prevValue) => (prevValue += "6")) },
+    { value: "1", onAdd: () => setValue((prevValue) => (prevValue += "1")) },
+    { value: "2", onAdd: () => setValue((prevValue) => (prevValue += "2")) },
     { value: "3", onAdd: () => setValue((prevValue) => (prevValue += "3")) },
     { value: "0", onAdd: () => setValue((prevValue) => (prevValue += "0")) },
-    { value: "2", onAdd: () => setValue((prevValue) => (prevValue += "2")) },
-    { value: "1", onAdd: () => setValue((prevValue) => (prevValue += "1")) },
     {
       value: "+",
       icon: <FaPlus />,
