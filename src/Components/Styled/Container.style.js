@@ -1,11 +1,20 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 30rem;
-  background: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(20px);
+  position: relative;
+  width: 25rem;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+
+  height: 90vh;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
   border-radius: 1rem;
   overflow: hidden;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(min-max(auto-fit, 1fr));
+  gap: 0.5rem;
+  padding: 0.5rem;
 `;
