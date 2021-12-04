@@ -3,11 +3,11 @@ import styled from "styled-components";
 export const Container = styled.div`
   position: relative;
   width: 25rem;
+  height: 90vh;
   @media (max-width: 768px) {
     width: 100%;
+    height: 100%;
   }
-
-  height: 90vh;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   border-radius: 1rem;

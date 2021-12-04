@@ -56,7 +56,7 @@ function App() {
       icon: <FaEquals />,
       onAdd: () => {
         try {
-          setValue(String(eval(value)));
+          if (value) setValue(String(eval(value)));
         } catch {
           setValue("wrong value!");
         }
