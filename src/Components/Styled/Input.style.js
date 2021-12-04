@@ -10,6 +10,6 @@ export const Input = styled.input`
   font-weight: 700;
   color: #fff;
   border-bottom: 5px solid #3b82f6;
-
+  overflow-x: auto;
   margin-bottom: 1rem;
 `;
