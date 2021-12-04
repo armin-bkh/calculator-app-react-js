@@ -6,7 +6,6 @@ export const Container = styled.div`
   height: 90vh;
   @media (max-width: 768px) {
     width: 100%;
-    height: 100%;
   }
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
